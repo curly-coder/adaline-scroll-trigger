@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const frameCount = 207;
   const currentFrame = (index) =>
-    `/adaline-scroll-trigger/public/frames/frame_${(index + 1).toString().padStart(4, "0")}.jpg`;
+    `/frames/frame_${(index + 1).toString().padStart(4, "0")}.jpg`;
 
   let images = [];
   let videoFrames = { frame: 0 };
